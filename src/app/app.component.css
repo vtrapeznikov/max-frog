@@ -15,8 +15,8 @@ h1 {
     }
 
     #whoosh {
-        max-width: 10%;
-        max-height: 10%;
+        max-width: 20%;
+        max-height: 20%;
         z-index: 3;
         position: absolute;
         top: 50%;
