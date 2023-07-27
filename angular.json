@@ -24,6 +24,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
+              "src/frog.gif",
+              "src/max.png",
+              "src/whoosh.png",
               "src/assets"
             ],
             "styles": [
