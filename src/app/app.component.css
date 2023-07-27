@@ -1,0 +1,66 @@
+h1 {
+    color: white;
+}
+
+.max-frog {
+    position: relative;
+    top: 10%;
+    left: 0;
+
+    #main_img {
+        max-width: 30%;
+        z-index: 1;
+        position: relative;
+        left: 25%;
+    }
+
+    #whoosh {
+        max-width: 10%;
+        max-height: 10%;
+        z-index: 3;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+
+        -webkit-animation: orbit2 4s linear infinite;
+        -moz-animation: orbit2 4s linear infinite;
+        -o-animation: orbit2 4s linear infinite;
+        animation: orbit2 4s linear infinite;
+    }
+}
+
+@-webkit-keyframes orbit2 {
+    from {
+        -webkit-transform: rotate(0deg) translateX(700%) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(700%) rotate(-360deg);
+    }
+}
+
+@-moz-keyframes orbit2 {
+    from {
+        -moz-transform: rotate(0deg) translateX(700%) rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg) translateX(700%) rotate(-360deg);
+    }
+}
+
+@-o-keyframes orbit2 {
+    from {
+        -o-transform: rotate(0deg) translateX(700%) rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg) translateX(700%) rotate(-360deg);
+    }
+}
+
+@keyframes orbit2 {
+    from {
+        transform: rotate(0deg) translateX(700%) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(700%) rotate(-360deg);
+    }
+}
